@@ -120,7 +120,7 @@ const Products = () => {
           <div className="col_">
             <ProductItem
               price="268.85"
-              img="../images/Pistols/Pistol_Striker Fired/Pistol_Taurus/Striker Fired_Taurus_ LR 0.22_TAURUSTX 22 Competition SCR Hard Anodized Black 22 LR Black Polymer Frame 10-Rounds.webp"
+              img="../images/Pistols/Pistol_Striker Fired/Pistol_Taurus/fired_taurus.webp"
               name="Lorem Ipsum is simply dummy text of the printing and typesetting industry."
             />
           </div>
@@ -154,7 +154,7 @@ const Products = () => {
           <div className="col_">
             <ProductItem
               price="419.99"
-              img="../images/Pistols/Pistol_Striker Fired/Pistol_Taurus/Striker Fired_Taurus_ LR 0.22_TAURUSTX 22 Competition SCR Hard Anodized Black 22 LR Black Polymer Frame 10-Rounds.webp"
+              img="../images/Pistols/Pistol_Striker Fired/Pistol_Taurus/fired_taurus.webp"
               name="Lorem Ipsum is simply dummy text of the printing and typesetting industry."
             />
           </div>
