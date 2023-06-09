@@ -1,4 +1,5 @@
 {
+  "homepage": "http://Tvrdvsk.github.io/react-app",
   "name": "guns-project",
   "version": "0.1.0",
   "private": true,
@@ -20,7 +21,7 @@
     "react-hook-form": "^7.44.3",
     "react-otp-input": "^3.0.2",
     "react-router-dom": "^6.12.0",
-    "react-scripts": "^5.0.1",
+    "react-scripts": "5.0.1",
     "swiper": "^9.3.2",
     "typescript": "^4.4.2",
     "web-vitals": "^2.1.0",
@@ -30,7 +31,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "devDependencies": {
     "@types/react-datepicker": "^4.8.0",
