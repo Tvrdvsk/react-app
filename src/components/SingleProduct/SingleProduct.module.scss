@@ -1,0 +1,101 @@
+@import "src/styles/mixins";
+
+.cartPage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+.descr {
+    min-height: 100%;
+    width: 50%;
+    display: flex;
+    gap: 40px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    .name {
+        font-size: 40px;
+    }
+    .short {
+        font-size: 20px;
+    }
+    .price {
+        font-size: 25px;
+        font-weight: bold;
+    }
+    .btn {
+        width: 150px;
+        height: 80px;
+        outline: none;
+        border: none;
+        background: rgb(167, 166, 166);
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    
+}
+.bottomDescr {
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 20px;
+    .mainBottom {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        gap: 25px;
+        .mainBottomBlockes {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            gap: 10px;
+        }
+    }
+}
+
+.sliderWrapper {
+    max-width: 50%;
+  .imageItem {
+      width: 100%;
+      height: 400px;
+      img {
+          width: 100%;
+          height: 100%;
+          object-fit: contain;
+      }
+  }
+  .naviagitonItem {
+      z-index: 3;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      cursor: pointer;
+      &.next_item {
+          right: 10px;
+      }
+      &.prev_item {
+          left: 10px;
+      }
+  }
+  :global {
+      .swiper-pagination {
+          position: static;
+          margin-top: 26px;
+          .swiper-pagination-bullet {
+              width: 12px;
+              height: 12px;
+              background: #000 !important;
+              opacity: 1;
+              &.swiper-pagination-bullet-active {
+                  width: 16px;
+                  height: 16px;
+              }
+          }
+      }
+  }
+}

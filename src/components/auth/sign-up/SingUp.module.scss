@@ -1,0 +1,72 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  flex-direction: column;
+  border-radius: 20px;
+  background: rgb(250, 247, 254);
+  border-color: rgb(201 201 201);
+  padding: 20px 30px;
+}
+.input {
+  border-radius: 35px;
+  padding: 15px 20px;
+  background: rgb(201 201 201);
+  border: none;
+  width: 90%;
+}
+
+.checkboxBlock {
+  display: flex;
+  gap: 5px;
+  margin-top: 30px;
+  p {
+    font-size: 12px;
+  }
+}
+
+.checkbox {
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.verify {
+  border-radius: 7px;
+  padding: 20px;
+  font-size: 15px;
+  border: none;
+  cursor: pointer;
+  box-shadow: inset;
+  color: white;
+  background: rgb(150, 30, 46);
+  width: 70%;
+}
+
+.dateOfBirth {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  input {
+    padding: 15px;
+  }
+}
+
+.haveAnAccountBlock {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.signInBtn {
+  background: none;
+  border: none;
+  color:rgb(69, 151, 247);
+  font-weight: bold;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.disabled {
+  opacity: 0.5;
+}

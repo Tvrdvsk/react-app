@@ -1,0 +1,121 @@
+.wrapper-bottom-slid {
+    cursor: pointer;
+    span {
+        font-family: poppins-light;
+        font-size: 14px;
+        color: #000000;
+        display: block;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .wrapper-bottom-slid_img {
+        width: 100%;
+        height: 350px;
+        object-fit: contain;
+        text-align: right;
+        position: relative;
+        &:hover {
+            .quick {
+                transition: 0.5s all ease;
+                opacity: 1;
+            }
+        }
+    }
+    .add-product {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        font-family: poppins-regular;
+        font-size: 18px;
+        button {
+            width: 30%;
+            height: 40px;
+            border: 1px solid #fe0000;
+            font-family: poppins-regular;
+            background: #fe0000;
+            font-size: 16px;
+            color: #ffffff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            img {
+                display: block;
+                width: auto;
+                height: auto;
+            }
+            &:hover {
+                background: #d71117;
+                color: #fff;
+                cursor: pointer;
+            }
+        }
+        p {
+            span {
+                font-family: Mardoto-Regulard !important;
+                color: #ffffff;
+                font-size: 18px;
+                margin: 0;
+            }
+        }
+        div {
+            background: #151412;
+            width: 70%;
+            height: 40px;
+            display: flex;
+            p {
+                display: flex;
+                align-items: center;
+                color: #ffffff;
+                font-size: 18px;
+                padding-left: 20px;
+            }
+        }
+    }
+
+    .lov {
+        width: 27px;
+        height: 29px;
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        overflow: hidden;
+    }
+    :global {
+        .far {
+            font-size: 27px;
+            color: #7e7e7e;
+            cursor: pointer;
+            display: block;
+            position: absolute;
+            bottom: 0;
+        }
+        .fas {
+            font-size: 0px;
+            color: #d71117;
+            display: block;
+            cursor: pointer;
+            bottom: 0;
+            position: absolute;
+        }
+    }
+    .active {
+        font-size: 27px;
+    }
+
+    .lov {
+        &:hover {
+            :global {
+                .fas {
+                    transition: 0.5s;
+                    font-size: 27px !important;
+                    right: 0px !important;
+                }
+                .far {
+                    transition: 0.5s;
+                    color: #d71117;
+                }
+            }
+        }
+    }
+}

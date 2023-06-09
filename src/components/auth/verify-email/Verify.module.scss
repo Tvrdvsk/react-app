@@ -1,0 +1,62 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 50px;
+  flex-direction: column;
+  border-radius: 20px;
+  background: rgb(250, 247, 254);
+  border-color: rgb(201 201 201);
+  padding: 20px 30px;
+}
+.pleaseEnter {
+  font-size: 20px;
+}
+
+.verifyText {
+  font-size: 20px;
+  color:rgb(69, 151, 247);
+}
+
+.otpContainer {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.otpInput {
+  font-size: 60px;
+  background-color: rgb(220, 220, 220);
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  color: rgb(87, 85, 85);
+}
+
+.resendCode {
+  font-size: 20px;
+  cursor: pointer;
+  color:rgb(69, 151, 247);
+}
+
+.btnContainer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.disabled {
+  opacity: 0.5;
+}
+
+.verify {
+  border-radius: 7px;
+  padding: 20px;
+  font-size: 15px;
+  border: none;
+  cursor: pointer;
+  box-shadow: inset;
+  color: white;
+  background: rgb(150, 30, 46);
+  width: 70%;
+}

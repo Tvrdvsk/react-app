@@ -1,0 +1,41 @@
+.sliderWrapper {
+    position: relative;
+    .imageItem {
+        width: 100%;
+        height: 600px;
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: fill;
+        }
+    }
+    .naviagitonItem {
+        z-index: 3;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        cursor: pointer;
+        &.next_item {
+            right: 10px;
+        }
+        &.prev_item {
+            left: 10px;
+        }
+    }
+    :global {
+        .swiper-pagination {
+            position: static;
+            margin-top: 26px;
+            .swiper-pagination-bullet {
+                width: 12px;
+                height: 12px;
+                background: #000 !important;
+                opacity: 1;
+                &.swiper-pagination-bullet-active {
+                    width: 16px;
+                    height: 16px;
+                }
+            }
+        }
+    }
+}

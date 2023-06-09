@@ -1,0 +1,47 @@
+.footer {
+    box-shadow: 0 0 11px rgba(0, 0, 0, 0.1);
+    margin-top: 115px;
+    .bottom {
+        height: 104px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .contact {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        img {
+            width: 115px;
+        }
+        h3 {
+            color: #d71117;
+            font-size: 33px;
+            font-family: poppins-medium;
+            margin-right: 23px;
+        }
+        i {
+            font-size: 33px;
+            margin-left: 20px;
+            cursor: pointer;
+        }
+    }
+    .i_info {
+        display: flex;
+    }
+    .info {
+        font-size: 18px;
+        color: #1d1d1d;
+        font-family: poppins-regular;
+    }
+    .cart {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .cart img {
+        margin-left: 20px;
+        cursor: pointer;
+    }
+}

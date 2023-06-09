@@ -1,0 +1,58 @@
+export const data = [
+  {
+    id: 1,
+    name: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
+    price: '268.85',
+    img: '../images/Revolvers/Taurus_Revolver/Revolver_Taurus_38 Special_2” Barrel___TAURUS 856.webp',
+    isInWishlist: false,
+  },
+  {
+    id: 2,
+    name: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
+    price: '268.85',
+    img: '../images/Pistols/Pistol_Hammer Fired/Sig Saur_Pistol/Hammer Fired_Sig Saur_ 10mm_____P320-XTEN.jpg',
+    isInWishlist: false,
+  },
+  {
+    id: 3,
+    name: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
+    price: '268.85',
+    img: '../images/Revolvers/Taurus_Revolver/Revolver_Taurus_.44 Magnum_4” Barrel___TRACKER 44.webp',
+    isInWishlist: false,
+  },
+  {
+    id: 4,
+    name: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
+    price: '268.85',
+    img: '../images/Revolvers/Taurus_Revolver/Revolver_Taurus_.44 Magnum_4” Barrel___TRACKER 44.webp',
+    isInWishlist: false,
+  },
+  {
+    id: 5,
+    name: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
+    price: '268.85',
+    img: '../images/Pistols/Pistol_Hammer Fired/Sig Saur_Pistol/Hammer Fired_Sig Saur_ 10mm_____P320-XTEN.jpg',
+    isInWishlist: false,
+  },
+  {
+    id: 6,
+    name: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
+    price: '268.85',
+    img: '../images/Shot Guns/Mossberg_Shot gun/Shot gun_Mossberg_12G_Pump-action____590 RETROGRADE.jpg',
+    isInWishlist: false,
+  },
+  {
+    id: 7,
+    name: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
+    price: '268.85',
+    img: '../images/Shot Guns/Browning_Shot guns/Shot Guns_Browning_10G_Semi Auto_____Gold Light 10 Gauge Field – Auric.webp',
+    isInWishlist: false,
+  },
+  {
+    id: 8,
+    name: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
+    price: '268.85',
+    img: '../images/Pistols/Pistol_Hammer Fired/Browning_Pistol/Hammer Fired_Browning_.380 ACP___1911-380 Black Label Compact.webp',
+    isInWishlist: false,
+  },
+];
